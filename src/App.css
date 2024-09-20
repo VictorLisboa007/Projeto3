@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Faz o App ocupar pelo menos 100% da altura da tela */
+}
+
+main {
+  flex: 1; /* Permite que o main expanda para ocupar o espaço disponível */
+}
